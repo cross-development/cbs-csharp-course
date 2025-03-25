@@ -1,4 +1,4 @@
-﻿namespace HW_1_1
+﻿namespace HW_1
 {
     partial class Form1
     {
