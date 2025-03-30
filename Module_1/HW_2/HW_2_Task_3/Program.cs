@@ -1,9 +1,14 @@
-﻿namespace HW_2_Task_3;
+﻿using System.Text;
+
+namespace HW_2_Task_3;
 
 internal class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.Unicode;
+        Console.InputEncoding = Encoding.Unicode;
+
         string str1 = "\nмій рядок 1";
         string str2 = "\tмій рядок 2";
         string str3 = "\aмій рядок 3";
